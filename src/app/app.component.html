@@ -1,0 +1,70 @@
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="navbar-header" >
+        <div class="nav-item active" class="navbar-brand" >
+            <div> <h1>Sonata</h1> </div>
+        </div>
+    </div>
+</nav>
+<div>
+  <ngb-tabset [destroyOnHide]="false">
+    
+    <ngb-tab title="Client Details">
+      <ng-template ngbTabContent>
+        <app-asset-selection></app-asset-selection>
+      </ng-template>
+    </ngb-tab>
+     
+    <ngb-tab>
+      <ng-template ngbTabTitle>Account</ng-template>
+      <ng-template ngbTabContent>
+          <p>This is Account Component</p>
+      </ng-template>
+    </ngb-tab>
+     
+    <ngb-tab>
+      <ng-template ngbTabTitle>Transfer</ng-template>
+      <ng-template ngbTabContent>
+          <p>This is Transfer Component</p>
+      </ng-template>
+    </ngb-tab>
+    <ngb-tab>
+      <ng-template ngbTabTitle>Contributions</ng-template>
+      <ng-template ngbTabContent>
+          <p>This is Contributions Component</p>
+      </ng-template>
+    </ngb-tab>
+    <ngb-tab>
+      <ng-template ngbTabTitle>Asset Selection</ng-template>
+      <ng-template ngbTabContent>
+        <app-asset-selection></app-asset-selection>
+      </ng-template>
+    </ngb-tab>
+    <ngb-tab>
+      <ng-template ngbTabTitle>Income and Withdrawals</ng-template>
+      <ng-template ngbTabContent>
+          <p>This is Income and Withdrawals Component</p>
+      </ng-template>
+    </ngb-tab>
+    <ngb-tab>
+      <ng-template ngbTabTitle>Additional Information</ng-template>
+      <ng-template ngbTabContent>
+          <p>This is Additional Information Component</p>
+      </ng-template>
+    </ngb-tab>
+    <ngb-tab>
+      <ng-template ngbTabTitle>Confirm</ng-template>
+      <ng-template ngbTabContent>
+          <p>This is Confirm Component</p>
+      </ng-template>
+    </ngb-tab>
+    
+     
+  </ngb-tabset>
+  </div>
+  
+  <!-- <br>
+<div class="container-fluid">
+  <app-asset-selection></app-asset-selection>
+</div> -->
+   
